@@ -1420,6 +1420,8 @@ img {
     font-size: 0.98rem;
     line-height: 1.8;
     color: var(--text-body);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .testimonial-quote-icon {
@@ -1921,7 +1923,8 @@ img {
     }
 
     .services-grid,
-    .facility-grid {
+    .facility-grid,
+    .testimonials-grid {
         grid-template-columns: 1fr 1fr;
     }
     
@@ -1981,7 +1984,8 @@ img {
     }
 
     .gallery-grid,
-    .facility-grid {
+    .facility-grid,
+    .testimonials-grid {
         grid-template-columns: 1fr;
     }
 
