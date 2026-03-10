@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileToggle = document.getElementById('mobileToggle');
     const navMenu = document.getElementById('navMenu');
 
-    mobileToggle.addEventListener('click', () => {
+    mobileToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
         mobileToggle.classList.toggle('active');
         navMenu.classList.toggle('active');
         document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
@@ -37,6 +38,22 @@ document.addEventListener('DOMContentLoaded', () => {
             navMenu.classList.remove('active');
             document.body.style.overflow = '';
         });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth > 768) return;
+        const isMenuOpen = navMenu.classList.contains('active');
+        if (!isMenuOpen) return;
+
+        const clickInsideMenu = navMenu.contains(e.target);
+        const clickOnToggle = mobileToggle.contains(e.target);
+
+        if (!clickInsideMenu && !clickOnToggle) {
+            mobileToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        }
     });
 
     // Mobile dropdown handling
