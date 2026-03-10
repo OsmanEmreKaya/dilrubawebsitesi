@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilruba Huzurevi ve Yaşlı Bakım Merkezi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-top">
+            <div class="container header-top-inner">
+                <div class="contact-info">
+                    <a href="tel:+905325408038"><i class="fas fa-phone"></i> 0 (532) 540 80 38</a>
+                    <a href="mailto:ozelhuzurevidilruba@gmail.com"><i class="fas fa-envelope"></i> ozelhuzurevidilruba@gmail.com</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/DilrubaHuzurevi" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ozeldilrubahuzur/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container navbar-inner">
+                <a href="#anasayfa" class="logo">
+                    <img src="assets/logo.png" alt="Dilruba Huzurevi Logo">
+                    <div class="logo-text">
+                        <span class="logo-title">Dilruba</span>
+                        <span class="logo-subtitle">Huzurevi ve Yaşlı Bakım Merkezi</span>
+                    </div>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menüyü aç">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#anasayfa" class="nav-link active">Ana Sayfa</a></li>
+                    <li><a href="#is-basvuru" class="nav-link">İş Başvuru Formu</a></li>
+                    <li><a href="#hikayemiz" class="nav-link">Hikayemiz</a></li>
+                    <li><a href="#misyon-vizyon" class="nav-link">Misyon ve Vizyonumuz</a></li>
+                    <li><a href="#basvuru-onkabul" class="nav-link">Başvuru ve Önkabul</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Daha Fazla <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#hizmetlerimiz">Hizmetlerimiz</a></li>
+                            <li><a href="#iletisim">İletişim</a></li>
+                            <li><a href="#sss">Görüşleriniz</a></li>
+                            <li><a href="kvkk.html">KVKK Aydınlatma Metni</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="anasayfa">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('assets/bahce1.png')"></div>
+            <div class="hero-slide" style="background-image: url('assets/mekan1.png')"></div>
+            <div class="hero-slide" style="background-image: url('assets/mekan6.png')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Sevdikleriniz İçin<br><span>Güvenli Bir Yuva</span></h1>
+            <p class="hero-description">Dilruba Huzurevi olarak, yaşlılarımıza sıcak bir aile ortamında profesyonel bakım ve sevgi dolu bir yaşam sunuyoruz.</p>
+            <div class="hero-buttons">
+                <a href="#basvuru-onkabul" class="btn btn-primary">Başvuru Yapın</a>
+                <a href="#hikayemiz" class="btn btn-outline">Bizi Tanıyın</a>
+            </div>
+        </div>
+        <div class="hero-slider-dots">
+            <button class="dot active" data-slide="0"></button>
+            <button class="dot" data-slide="1"></button>
+            <button class="dot" data-slide="2"></button>
+        </div>
+    </section>
+
+    <!-- Hikayemiz -->
+    <section class="section hikayemiz" id="hikayemiz">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Biz Kimiz?</span>
+                <h2 class="section-title">Hikayemiz</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="story-grid">
+                <div class="story-image">
+                    <img src="assets/image1.png" alt="Dilruba Huzurevi İç Mekan">
+                    <div class="story-image-badge">
+                        <span class="years-number">2007</span>
+                        <span class="years-text">’den Bugüne İyilik</span>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <h3>Dilruba Evleri'nin Hikayesi</h3>
+                    <p>Dilruba Evleri Yardımlaşma Derneği 2007 yılında ‘ben talibim’ deyip yola çıkan üç beş gönüllü arkadaşın, evlerine bırakılan erzağı pişirip yiyemeyecek durumda olan insanlar için ne yapabiliriz diye dertlenip adım atmasıyla başlayan bir iyilik hareketidir.</p>
+                    <p>Önceleri ziyaret ettikleri yaşlılara evlerinde sıcak yemek ve kişisel bakım hizmeti vererek bu konuda deneyim kazanan gönüllüler, evlerinde yalnız kalamayacak durumda olan yaşlıları kiraladıkları iki katlı evde misafir ederek ilk Dilruba Konuk Evi’nin kapılarını açmışlardır.</p>
+                    <p>Talebin yoğunluğu nedeni ile aynı mahallede ikinci ve üçüncü ev kısa sürede açılmıştır.</p>
+                    <p>Binaların fiziki şartlarının yaşlı ve hasta bakımı için uygun olmamasına rağmen gayretlerini yitirmeden çalışmalarına devam eden Dilruba ekibini, bir gün ziyarete gelen Simpaş GYO şirket yöneticileri yapılan hizmetin ne kadar ihtiyaç ve gerekli olduğunu görüp, evsizler için Özlüce semtinde yaşlı ve hastaların yaşamlarını kolaylaştıracak yüksek standartlarda bir bina yaptı. Şu an Özlüce semtindeki yeni binasında ilk günkü heyecan ve gayret ile çalışmalarına devam eden Dilruba Evleri Yardımlaşma Derneği 2021 yılı itibariyle T.C Aile ve sosyal hizmetler bakanlığına bağlı Huzurevi ve Yaşlı Bakım Merkezi olarak tüm çalışanları ve yöneticileri ile hizmetini sürdürmektedir.</p>
+                    <p>Yeniliklere açık bakış açısı ile günümüze kadar gelen Dilruba Evleri, karşılaştığı olayların sonucu olarak her tür mazlumun ihtiyacına göre yeni projeler üretmeye devam etmektedir.</p>
+                    <div class="story-highlight">
+                        <i class="fas fa-heart"></i>
+                        <span>“Üç beş gönüllüyle başlayan bu yolculuk, bugün yüzlerce mazlumun yuvası olmuştur.”</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misyon ve Vizyon -->
+    <section class="section misyon-vizyon" id="misyon-vizyon">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Değerlerimiz</span>
+                <h2 class="section-title">Misyon ve Vizyonumuz</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="mv-grid">
+                <div class="mv-card misyon-card">
+                    <div class="mv-header">
+                        <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>Misyonumuz ve Vizyonumuz</h3>
+                    </div>
+                    <p>Dilruba Evleri Yardımlaşma Derneği olarak başladığımız insanlık hareketine Huzurevi ve Yaşlı Bakım Merkezi olarak dil, din, ırk, sınıf ve cinsiyet farkı gözetmeksizin; çalışma gücünü kaybetmiş, bakıma ve korunmaya muhtaç, yaşlı, engelli, kimsesiz insanların barınma, gıda ve bakım ihtiyaçlarını karşılayıp, daha güvenli, huzurlu ve mutlu yaşamalarına imkân sağlamaktayız.</p>
+                    <p>Kendilerine refakat edecek kimsesi olmayan yaşlı ve düşkünlerin tedavi süresince hastanelerle bağlantı kurarak sağlık hizmeti vermek; onlara kollarını açarak, şefkat ve sevgiyle hizmet edip, yüzlerini güldürüp, sosyal hayata uyumlarını sağlamak; kardeşlik duygularının zayıfladığı, huzur ve sükûnun kaybolduğu zamanımızda, insani değerlerin giderek kaybolduğu günümüzde insanlarımızın özünde saklı kalan şefkat ve merhamet duygularını hatırlatıp düşkünlere el uzatıp, yaralarını sarmak; kimsesizlerin kimsesi olarak tarihimize yakışır bir toplum haline gelmek için küçük büyük ulaşabildiğimiz herkese iyilikte yarışma, yardımlaşma bilincini aşılamak ana amaçlarımızdan bazılarıdır.</p>
+                    <p>Dünyanın en doğru yönetim biçiminin merhamet olduğuna inanan Dilruba ekibi aynı inanç ve heyecanla yoluna devam ediyor.</p>
+                </div>
+            </div>
+            <div class="quote-section">
+                <div class="quote-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="quote-text">"Ölüm seni bulana dek iyiliğe devam et."</p>
+                    <p class="quote-author">Hatice Dilruba</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetlerimiz -->
+    <section class="section hizmetlerimiz" id="hizmetlerimiz">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mekanımız</span>
+                <h2 class="section-title">Hizmet Alanlarımız ve Binamız</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="facility-grid">
+                <div class="facility-item">
+                    <img src="assets/mekan1.png" alt="Hasta odalarımız">
+                </div>
+                <div class="facility-item">
+                    <img src="assets/mekan2.png" alt="Konforlu yatak odalarımız">
+                </div>
+                <div class="facility-item">
+                    <img src="assets/mekan3.png" alt="Koridor ve ortak alanlarımız">
+                </div>
+                <div class="facility-item">
+                    <img src="assets/mekan4.png" alt="Yemek ve etkinlik salonu">
+                </div>
+                <div class="facility-item">
+                    <img src="assets/mekan5.png" alt="Oturma ve dinlenme alanı">
+                </div>
+                <div class="facility-item">
+                    <img src="assets/mekan6.png" alt="Misafir salonumuz">
+                </div>
+            </div>
+            <div class="facility-text">
+                <ul class="facility-list">
+                    <li>Bursa'nın en gözde ve nezih semtlerinden olan Özlüce semtinde, 68 kapasiteli bakımevi binamızda iki veya üç kişilik oda düzeninde yaşlı ve hasta kişilerin baza ve kumandalı hasta yatağı ile bakımı yapılmaktadır.</li>
+                    <li>Odalarımızın hepsi balkona sahiptir.</li>
+                    <li>Kişisel eşyalarını koyabilecekleri çekmeceli dolaplar yatak yanlarında yer almakta, sosyalleşmeleri için ortak alanlar ve aktivite salonu bulunmaktadır.</li>
+                    <li>Yatak başlarında acil durumlar için çağrı cihazları, oda girişlerinde hemşirelerimizin takibi için takip cihazları bulunmaktadır.</li>
+                    <li>Misafirlerimizin menüde belirtilen yemek öğünleri (3 ana, 2 ara öğün) mutfağımızda aşçımız tarafından hazırlanmaktadır.</li>
+                    <li>Yemek öğünleri, sağlık durumu uygun olan misafirlerimiz için yemekhanemizde; yatağa bağımlı veya hareket kısıtlaması bulunan hastalarımız için katlarda servis edilir.</li>
+                    <li>Sağlık ve ilaç takibi için hemşire odasında, tüm misafirlerimizin ilaçları saklama koşullarına uygun olarak saklanmaktadır.</li>
+                    <li>Tüm misafirlerimizin kıyafetleri, karışmayacak şekilde kişiye özel file torbalarda çamaşırhanede yıkanmaktadır.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Başvuru ve Önkabul -->
+    <section class="section basvuru-onkabul" id="basvuru-onkabul">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nasıl Başvurulur?</span>
+                <h2 class="section-title">Başvuru ve Önkabul</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="admission-content">
+                <div class="admission-steps">
+                    <div class="step">
+                        <div class="step-content">
+                            <h3>Başvuru ve Önkabul</h3>
+                            <p><strong>Başvuru aşamasında</strong> hasta veya yakını ile yüz yüze, hasta ve şartları hakkında detaylı bir görüşme yapılır. Onaylanan hasta için;</p>
+                            <p><strong>Özel Huzurevi ve Yaşlı Bakım Merkezi Yönetmeliğine göre</strong> aşağıdaki şartların eksiksiz yerine getirilmesi beklenir:</p>
+                            <ul class="admission-list">
+                                <li>Kuruluşumuza kabulü istenen kişinin 55 yaş ve üzeri olması</li>
+                                <li>Dilekçe</li>
+                                <li>T.C. kimlik beyanı</li>
+                                <li>Yaşlının bulaşıcı hastalığı olmadığını gösterir sağlık raporu</li>
+                                <li>Uyuşturucu madde ve alkol kullanılmaması</li>
+                                <li>Hastanın diğer kronik hastalıkları için uzman doktordan alınacak tabip raporu</li>
+                                <li>Gelir belgesi</li>
+                                <li>Huzurevinde kalabilir onaylı heyet raporu</li>
+                                <li>Vesikalık fotoğraf</li>
+                            </ul>
+                            <p>Maddelerini eksiksiz yerine getirmesi beklenir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İş Başvuru Formu -->
+    <section class="section is-basvuru" id="is-basvuru">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Ekibimize Katılın</span>
+                <h2 class="section-title">İş Başvuru Formu</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="job-content">
+                <div class="job-info">
+                    <h3>Neden Dilruba Ailesi?</h3>
+                    <p>Dilruba Huzurevi'nde çalışmak, sadece bir iş değil; anlamlı bir yaşamın parçası olmaktır. Ekibimize katılarak yaşlılarımızın hayatına dokunabilirsiniz.</p>
+                    <div class="job-benefits">
+                        <div class="benefit">
+                            <i class="fas fa-briefcase-medical"></i>
+                            <span>Sağlık sigortası</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-people-group"></i>
+                            <span>Pozitif çalışma ortamı</span>
+                        </div>
+                        <div class="benefit">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Kariyer ilerleme imkanları</span>
+                        </div>
+                    </div>
+                    <div class="job-positions">
+                        <h4>Açık Pozisyonlar:</h4>
+                        <ul>
+                            <li>Hemşire</li>
+                            <li>Yaşlı Bakım Elemanı</li>
+                            <li>Temizlik Personeli</li>
+                            <li>Sosyal Çalışmacı</li>
+                            <li>Aşçı</li>
+                            <li>Yemekhane Personeli</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="job-form-wrapper">
+                    <iframe data-tally-src="https://tally.so/embed/kdAJjZ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="552" frameborder="0" marginheight="0" marginwidth="0" title="İş Başvuru Formu"></iframe>
+                    <script>
+                        var d = document,
+                            w = "https://tally.so/widgets/embed.js",
+                            v = function () {
+                                if (typeof Tally !== "undefined") {
+                                    Tally.loadEmbeds();
+                                } else {
+                                    d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (e) {
+                                        e.src = e.dataset.tallySrc;
+                                    });
+                                }
+                            };
+                        if (typeof Tally !== "undefined") v();
+                        else if (d.querySelector('script[src="' + w + '"]') == null) {
+                            var s = d.createElement("script");
+                            s.src = w;
+                            s.onload = v;
+                            s.onerror = v;
+                            d.body.appendChild(s);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri -->
+    <section class="section galeri" id="galeri">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-layout">
+                <div class="gallery-main">
+                    <button class="gallery-main-nav gallery-main-prev" id="galleryMainPrev" aria-label="Önceki fotoğraf">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <img id="galleryMainImage" src="assets/bahce1.png" alt="Bahçemiz" loading="lazy">
+                    <button class="gallery-main-nav gallery-main-next" id="galleryMainNext" aria-label="Sonraki fotoğraf">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item large active">
+                        <img src="assets/bahce1.png" alt="Bahçemiz" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Bahçemiz</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan1.png" alt="Mekan 1" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yaşam Alanı</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan2.png" alt="Mekan 2" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ortak Alan</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan3.png" alt="Mekan 3" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>İç Mekan</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan4.png" alt="Mekan 4" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Oturma Alanı</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan5.png" alt="Mekan 5" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Genel Görünüm</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekan6.png" alt="Mekan 6" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Dış Mekan</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/mekanfoto3.png" alt="Mekan Fotoğraf" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yaşam Alanı</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/image1.png" alt="Dilruba" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Dilruba Ailesi</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/sosyalcalısma.avif" alt="Sosyal Çalışma Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Sosyal Çalışma</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/bahce1.png" alt="Bahçe 1" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Bahçe 1</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/bahce2.png" alt="Bahçe 2" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Bahçe 2</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/bakim.png" alt="Yaşlı Bakım Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yaşlı Bakım</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/hemsir.png" alt="Hemşirelik Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Hemşirelik</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/koridor.png" alt="Koridor" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Koridor</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/yonetim.png" alt="Yönetim Ofisi" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yönetim</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/yemek.png" alt="Yemek Salonu" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yemek Salonu</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/yaslibakim.png" alt="Yaşlı Bakım Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Yaşlı Bakım</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/sandalye.png" alt="Oturma Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Oturma Alanı</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/namaz.png" alt="Namaz Alanı" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>İbadet Alanı</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+        <img src="" alt="" class="lightbox-image" id="lightboxImage">
+    </div>
+
+    <!-- Görüşler -->
+    <section class="section testimonials" id="sss">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Geri Bildirimler</span>
+                <h2 class="section-title">Görüşleriniz Bizim İçin Çok Değerli</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <h3 class="testimonial-title">Hasta Yakını</h3>
+                    <p class="testimonial-text">
+                        Annem 19/Ocak/2021’den bu yana Dilruba’da yaşadı ve evimizde yapamayacağımız, beceremeyeceğimiz kadar güzel ve temiz bakıldı. 
+                        Emeği geçen tüm arkadaşlara sizin huzurunuzda çok teşekkür ederim. Yakınlarını bir huzurevine teslim etmiş olmaktan vicdan azabı, huzursuzluk duyan varsa aranızda en kısa zamanda kurtulmasını dilerim. 
+                        Dilruba’daki samimiyeti ve sıcaklığı başka hiçbir yerde bulamayacağınızı şahsım adına garanti ederim. Tüm emeği geçenlerin haklarını anneme helal etmelerini diliyorum. Sağ olsunlar! 
+                        Sizlere ve tüm yakınlarınıza güzel ve huzurlu günler dilerim.
+                    </p>
+                    <div class="testimonial-quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <h3 class="testimonial-title">Hasta Yakını</h3>
+                    <p class="testimonial-text">
+                        Gerçekten evde bakımı çok zor olan yakınlarımızı gönül rahatlığı ile bırakabildiğimiz tek yer Dilruba Ailesi. 
+                        Ne kadar teşekkür etsek azdır, bakımevinden de öte bir sevgi evi diyorum, Allah hepsinden razı olsun.
+                    </p>
+                    <div class="testimonial-quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <h3 class="testimonial-title">Hasta Yakını</h3>
+                    <p class="testimonial-text">
+                        Onların bereketleri, maneviyatları çok başka; o güzel duaları hep üzerinizde. 
+                        Bu güzellik anlatılmaz, sadece burada yaşanıyor. 
+                        Emeği geçen herkesin tırnağına taş değmesin, sonsuz mutluluklar diliyorum.
+                    </p>
+                    <div class="testimonial-quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section class="section iletisim" id="iletisim">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bize Ulaşın</span>
+                <h2 class="section-title">İletişim</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Adres</h3>
+                        <p>19 Mayıs Mh. Kırmızıgül Sk. No: 9 Özlüce Nilüfer / Bursa</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Telefon</h3>
+                        <p><a href="tel:+905325408038">0 (532) 540 80 38</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>E-posta</h3>
+                        <p><a href="mailto:ozelhuzurevidilruba@gmail.com">ozelhuzurevidilruba@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Çalışma Saatleri</h3>
+                        <p>Haftanın 7 günü, 24 saat açıktır.</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Bize Mesaj Gönderin</h3>
+                    <iframe data-tally-src="https://tally.so/embed/QKrzjA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="313" frameborder="0" marginheight="0" marginwidth="0" title="Bize Mesaj Gönderin"></iframe>
+                    <script>
+                        var d = document,
+                            w = "https://tally.so/widgets/embed.js",
+                            v = function () {
+                                if (typeof Tally !== "undefined") {
+                                    Tally.loadEmbeds();
+                                } else {
+                                    d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (e) {
+                                        e.src = e.dataset.tallySrc;
+                                    });
+                                }
+                            };
+                        if (typeof Tally !== "undefined") v();
+                        else if (d.querySelector('script[src="' + w + '"]') == null) {
+                            var s = d.createElement("script");
+                            s.src = w;
+                            s.onload = v;
+                            s.onerror = v;
+                            d.body.appendChild(s);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Harita -->
+    <section class="map-section">
+        <iframe
+            src="https://www.google.com/maps?q=Dilruba%20Evleri%20Yard%C4%B1mla%C5%9Fma%20Derne%C4%9Fi%20Huzurevi%20ve%20Ya%C5%9Fl%C4%B1%20Bak%C4%B1m%20Merkezi&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+        ></iframe>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Sevdikleriniz İçin En İyisini Seçin</h2>
+            <p>Dilruba Huzurevi olarak, ailenizin bir parçası olmaktan gurur duyarız. Hemen bizimle iletişime geçin.</p>
+            <div class="cta-buttons">
+                <a href="tel:+905325408038" class="btn btn-white"><i class="fas fa-phone"></i> Hemen Arayın</a>
+                <a href="#basvuru-onkabul" class="btn btn-outline-white"><i class="fas fa-file-alt"></i> Başvuru Yapın</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="Dilruba Logo">
+                        <div>
+                            <span class="footer-logo-title">Dilruba</span>
+                            <span class="footer-logo-sub">Huzurevi ve Yaşlı Bakım Merkezi</span>
+                        </div>
+                    </div>
+                    <p>Yaşlılarımıza sevgi, saygı ve profesyonel bakım ile huzurlu bir yaşam sunuyoruz.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/DilrubaHuzurevi" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/ozeldilrubahuzur/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Hızlı Erişim</h4>
+                    <ul>
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#hikayemiz">Hikayemiz</a></li>
+                        <li><a href="#hizmetlerimiz">Hizmetlerimiz</a></li>
+                        <li><a href="#galeri">Galeri</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Başvurular</h4>
+                    <ul>
+                        <li><a href="#basvuru-onkabul">Sakin Başvurusu</a></li>
+                        <li><a href="#is-basvuru">İş Başvurusu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>İletişim Bilgileri</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 19 Mayıs Mh. Kırmızıgül Sk. No: 9 Özlüce Nilüfer / Bursa</li>
+                        <li><i class="fas fa-phone"></i> 0 (532) 540 80 38</li>
+                        <li><i class="fas fa-envelope"></i> ozelhuzurevidilruba@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dilruba Huzurevi ve Yaşlı Bakım Merkezi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Başa dön">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Başvurunuz başarıyla gönderildi!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
